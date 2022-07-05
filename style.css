@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.my-half {
     display: flex;
     margin-bottom: 100px;
     align-items: center;
@@ -19,14 +19,26 @@ section {
 
 }
 
+.about-me {
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 .half-width {
     width: 50%;
     padding: 5%;
 
+
 }
 
 .half-width img {
-    width: 100%;
+    width: 80%;
+
+    border-radius: 40px;
+
 
 }
 
@@ -42,5 +54,72 @@ section {
 .about-me {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
 
+}
+
+.my-recipies {
+    margin-top: 100px;
+}
+
+.lorem {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.recipe-item {
+    width: 40%;
+    margin: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px gray;
+    text-align: center;
+
+
+
+}
+
+.recipe-item img {
+    width: 80%;
+    height: 700px;
+
+
+}
+
+.recipe {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fainal {
+    margin: 5% 10%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 30px grey;
+
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+#eat {
+    color: orange;
+}
+
+#fresh {
+    color: grey;
 }
