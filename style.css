@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
     align-items: center;
     justify-content: space-between;
 
@@ -35,4 +37,10 @@ section {
     color: white;
     font-weight: 700;
     border-radius: 10px;
+}
+
+.about-me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+
 }
